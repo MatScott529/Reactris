@@ -1,8 +1,10 @@
+import Layout from './components/Layout';
+
 function Reactris() {
   return (
-    <div>
+    <Layout>
       <p>Hello World</p>
-    </div>
+    </Layout>
   );
 }
 
