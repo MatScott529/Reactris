@@ -1,0 +1,17 @@
+@import '../utils/colors.scss';
+@import '../utils/variables.scss';
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(#{$basic-unit} * 10);
+
+    .cell {
+        background-color: $color-background__panel;
+        border: 1px solid $color-background;
+        box-sizing: border-box;
+        display: inline-block;
+        height: $basic-unit;
+        width: $basic-unit;
+    }
+}

@@ -1,13 +1,22 @@
 @import './utils/colors';
 
 .layout {
+    background: linear-gradient(#51416e, 10%, #1d1928) no-repeat;
+    background-size: auto 40%;
     min-height: 100vh;
     position: relative;
 
     header {
-        background-color: $color-background;
-        color: $color-white;
+        height: 125px;
         padding: 5px 20px;
+        position: relative;
+
+        img {
+            bottom: 5px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 
     footer {

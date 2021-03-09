@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.scss';
-import Reactris from './Reactris';
+import TetrisTrainer from './TetrisTrainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Reactris />
+    <TetrisTrainer />
   </React.StrictMode>,
   document.getElementById('root')
 );

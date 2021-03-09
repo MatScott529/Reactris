@@ -1,9 +1,10 @@
 import styles from '../styles/Layout.module.scss';
+import logo from '../images/tetris-trainer-logo.png';
 
 const Layout = (props) => (
     <div className={styles.layout}>
         <header>
-            <h1>Reactris</h1>
+            <img src={logo} alt="Tetris Trainer"/>
         </header>
         {props.children}
         <footer>
