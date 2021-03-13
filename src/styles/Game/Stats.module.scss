@@ -1,0 +1,12 @@
+@import '../utils/colors';
+@import '../utils/variables';
+
+.wrapper {
+    background-color: $color-background__panel;
+    flex: 1 0 auto;
+    width: calc((#{$basic-unit} * 6) + 5px);
+
+    h1 {
+        text-align: center;
+    }
+}

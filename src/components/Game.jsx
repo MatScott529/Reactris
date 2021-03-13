@@ -17,6 +17,8 @@ const Game = () => {
 
             <div className={styles.rightSection}>
                 <Queue />
+                <button>Mode</button>
+                <button>Settings</button>
             </div>
         </div>
     )

@@ -1,5 +1,9 @@
+import styles from '../../styles/Game/Queue.module.scss';
+
 const Queue = () => (
-    <h1>Queue</h1>
+    <div className={styles.wrapper}>
+        <h1>Queue</h1>
+    </div>
 );
 
 export default Queue;

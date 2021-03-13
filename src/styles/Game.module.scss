@@ -1,3 +1,25 @@
+@import './utils/variables';
+
 .wrapper {
-    
+    display: flex;
+    justify-content: center;
+    margin-top: $basic-unit;
+
+    .leftSection,
+    .rightSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSection {
+        margin-right: $basic-unit;
+    }
+
+    .rightSection {
+        margin-left: $basic-unit;
+
+        button {
+            margin-top: $basic-unit;
+        }
+    }
 }
